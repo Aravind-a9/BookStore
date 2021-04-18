@@ -1,8 +1,4 @@
-﻿@model IEnumerable<Book_Store.Models.BookModels>
-@{
-    Layout = "_Layout";
-}
-
+﻿@model BookModels
  
 
 <div class="container">
@@ -11,12 +7,18 @@
 
         @foreach (var book in Model)
         {
-            <div class="card" style="width: 18rem;">
-    
+
+         <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">title: @book.Title</h5>
+                    <h5 class="card-title">@book.Title</h5>
+                    <p class="card-text">@book.Description</p>
+                    <a href="/book/GetBookById/@book.Id" class="btn btn-outline-success">View Details</a>
                 </div>
             </div>
+         </div><br />
+
         }
 
     </div>

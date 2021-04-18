@@ -393,3 +393,4 @@ E:\ASP .Net Web Core\Bookstore\Book-Store\Book-Store\obj\Debug\netcoreapp3.1\Raz
 E:\ASP .Net Web Core\Bookstore\Book-Store\Book-Store\obj\Debug\netcoreapp3.1\Razor\Views\Home\AboutUs.cshtml.g.cs
 E:\ASP .Net Web Core\Bookstore\Book-Store\Book-Store\obj\Debug\netcoreapp3.1\Razor\Views\Home\ContactUs.cshtml.g.cs
 E:\ASP .Net Web Core\Bookstore\Book-Store\Book-Store\obj\Debug\netcoreapp3.1\Razor\Views\Book\GetAllBooks.cshtml.g.cs
+E:\ASP .Net Web Core\Bookstore\Book-Store\Book-Store\obj\Debug\netcoreapp3.1\Razor\Views\Book\GetBookById.cshtml.g.cs

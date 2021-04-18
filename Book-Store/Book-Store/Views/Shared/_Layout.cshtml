@@ -36,7 +36,7 @@
                                 <a class="nav-link text-dark" asp-controller="home" asp-action="contactus" href="home/contactus">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark"   href="book/getallbooks">All Books</a>
+                                <a class="nav-link text-dark" href="book/getallbooks">All Books</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-controller="book" asp-action="AddNewBook">Add new book</a>
@@ -62,6 +62,9 @@
                 @*<cutom-email my-email="nitish@webgentle.com"></cutom-email>*@
             </div>
         </footer>
+
+        <script src="~/lib/jquery/jquery.js"></script>
+        @RenderSection("dialog",required:false);
     </div>
 </body>
 </html>
